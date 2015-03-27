@@ -72,7 +72,7 @@ def load_from_file(con):
     with con:
         cursor = con.cursor()
         #openfile = raw_input('Give the name of the file mapped. \n ex C:/Documents and Settings/user/Desktop/project/users.txt')
-        cursor.execute("LOAD DATA LOCAL INFILE 'C:/Documents and Settings/user/Desktop/vasso project/books.txt' INTO TABLE churchlib ;")
+        cursor.execute("LOAD DATA LOCAL INFILE 'C:/Documents and Settings/user/Desktop/library project/books.txt' INTO TABLE churchlib ;")
 
 def insert_new(con):
     with con:
