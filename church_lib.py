@@ -1,6 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+#Author: Nikos Sakellariou
+#Date started: 11/15/2014
+#Summary:  A client for a library database administration. It admins its books
+#users etc
+
 import MySQLdb as mdb
 import sys
 con = ''
